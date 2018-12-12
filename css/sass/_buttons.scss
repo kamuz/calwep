@@ -1,0 +1,35 @@
+/*--------------------------------------------------
+  BUTTONS
+--------------------------------------------------*/
+.btn{
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+    &.blue{
+        background-color: $lightBlue;
+        color: #fff;
+        &:hover{
+            background-color: $darkBlue;
+        }
+    }
+    &.transparent{
+        height: 50px;
+        line-height: 50px;
+        font-size: 22px;
+        border-radius: 3px;
+        padding: 0 20px;
+        background-color: rgba(0, 0, 0, .2);
+        color: #fff;
+        &:hover{
+            background-color: rgba(0, 0, 0, .3);
+        }
+    }
+    
+}

@@ -1,0 +1,133 @@
+.three-color-block{
+    .panel{
+        padding: 40px;
+        color: #fff;
+        &.light-green{
+            background-color: $lightGreen;
+        }
+        &.light-blue{
+            background-color: $lightBlue;
+        }
+        &.light-brown{
+            background-color: $lightBrown;
+        }
+        &.dark-blue{
+            background-color: $darkBlue;
+        }
+        &.dark-brown{
+            background-color: $darkBrown;
+        }
+        &.turquoise{
+            background-color: $turquoise;
+        }
+        h3{
+            font-weight: 300;
+            font-size: 35px;
+            margin-top: 0;
+            text-align: center;
+        }
+        .date{
+            font-weight: 300;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            &.read-more{
+                font-size: 18px;
+                text-decoration: none;
+            }
+        }
+    }
+    &.icons{
+        a{
+            font-size: 24px;
+            img{
+                margin-right: 20px;
+            }
+        }
+    }
+}
+.our-mission{
+    padding: 60px 0 310px;
+    background: url(../img/01.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+    color: #19518E;
+    
+    p{
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+}
+.membership-include{
+    margin-bottom: 30px;
+    .col-md-4{
+        min-height: 100%;
+        background: url(../img/03.jpg);
+        background-size: cover;
+    }
+    .col-md-8{
+        background-color: $darkestBlue;
+        color: #fff;
+        padding: 70px 40px;
+        .drop{
+            margin-bottom: 50px;
+        }
+    }
+}
+.blog-posts{
+    padding: 0 15px;
+    .col-md-3,
+    .col-md-6{
+        margin-bottom: 30px;
+        .post{
+            text-decoration: none;
+            .teaser-content{
+                min-height: 400px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                align-items: flex-end;
+                color: #fff;
+                div{
+                    padding: 20px 30px;
+                }
+            }
+        }
+    }
+    .col-md-6{
+        h3{
+            font-size: 36px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    .col-md-3{
+        h3{
+            font-size: 26px;
+            font-weight: 400;
+        }
+        p{
+            font-weight: 400;
+        }
+    }
+}
+.partners{
+    text-align: center;
+    padding: 70px 0 0;
+    h2{
+        color: #19518E;
+    }
+    .bottom-bg{
+        background: url(../img/09.jpg) no-repeat;
+        background-size: cover;
+        padding-bottom: 450px;
+    }
+}

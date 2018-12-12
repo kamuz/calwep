@@ -1,0 +1,100 @@
+/*--------------------------------------------------
+  FONTELLO
+--------------------------------------------------*/
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.eot?76466315');
+    src: url('../fonts/fontello.eot?76466315#iefix') format('embedded-opentype'),
+        url('../fonts/fontello.woff2?76466315') format('woff2'),
+        url('../fonts/fontello.woff?76466315') format('woff'),
+        url('../fonts/fontello.ttf?76466315') format('truetype'),
+        url('../fonts/fontello.svg?76466315#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+    content: '\e800';
+}
+
+.icon-twitter:before {
+    content: '\f099';
+}
+
+.icon-facebook:before {
+    content: '\f09a';
+}
+
+.icon-gplus:before {
+    content: '\f0d5';
+}
+
+.icon-linkedin:before {
+    content: '\f0e1';
+}
+
+.icon-youtube:before {
+    content: '\f167';
+}
+
+.icon-pinterest:before {
+    content: '\f231';
+}
+
+/*--------------------------------------------------
+  ICONMOON
+--------------------------------------------------*/
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?od18i2');
+    src: url('../fonts/icomoon.eot?od18i2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?od18i2') format('truetype'),
+        url('../fonts/icomoon.woff?od18i2') format('woff'),
+        url('../fonts/icomoon.svg?od18i2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-drop:before {
+    font-family: 'icomoon' !important;
+    content: "\e900";
+}
+
+.icon-pdf:before {
+    font-family: 'icomoon' !important;
+    content: "\e901";
+}
